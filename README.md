@@ -37,7 +37,9 @@ DO NOT CONTRIBUTE!
 This is a school project and I will get a failing grade if anyone conributes
 
 ### Changelog
-No changes have been made
+**v0.1**
+
+The basic bunctions of the game are done
 
 ### Contact
 **Author:**  Bernard R [Bern4rdR]
