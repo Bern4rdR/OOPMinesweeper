@@ -18,6 +18,7 @@ A terminal-based Minesweeper game with ascii graphics.  Players will be able to 
 
 ### Requriemnts
 - Python 3.6+
+- `random` module
 
 ### Installation
 `WIP`
