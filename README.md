@@ -14,7 +14,7 @@ A terminal-based Minesweeper game using OOP written in python
 - License
 
 ### Description of the project
-A terminal-based Minesweeper game with ascii graphics.  Players will be able to play on their own device and compare their highscores to friends.  You play by inputing coordinates for the square you want to explore, it'll be possible to flag it or clear it.  If the square is safe, a number (of the amount of surrounding bombs) will replace it.  Score is based on the ammount of cleared squares and with a multiplier that decreases with the ammount of flags places and the time, fewer flags means higher score.  It will be possible to compare score with other players within the program, in between games.
+A terminal-based Minesweeper game with ascii graphics.  Players will be able to play on their own device and compare their highscores to friends.  You play by inputing coordinates for the square you want to explore, it'll be possible to flag it or clear it.  If the square is safe, a number (of the amount of surrounding bombs) will replace it.  Score is based on the ammount of cleared squares and with a multiplier that decreases with the ammount of flags placed and the time it takes to complete it, fewer flags means higher score.  It will be possible to compare score with other players within the program, in between games.
 
 ### Requriemnts
 - Python 3.6+
