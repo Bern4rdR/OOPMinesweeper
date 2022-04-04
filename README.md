@@ -32,7 +32,7 @@ A terminal-based Minesweeper game with ascii graphics.  Players will be able to 
 ### Example run
 There is no working version as of yet
 
-### Contributsion
+### Contribution
 DO NOT CONTRIBUTE!
 This is a school project and I will get a failing grade if anyone conributes
 
