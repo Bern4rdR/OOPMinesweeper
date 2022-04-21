@@ -14,11 +14,11 @@
 
  To clear a square, input the coordinate.
   EXAMPLE:  B3
- If the square isn't a bomb, then it'll show a number of the ammount of bombs surrounding the square.
+ If the square isn't a bomb, then it'll show a number of the amount of bombs surrounding the square.
  If there isn't an adjacent bomb, the square will be empty and the surrounding squares will be cleared automatically.
  If the square is a bomb, congrats' you lost!
 
- There are also flaggs to place on the mines so you don't accidentally clear one.
+ There are also flags to place on the mines so you don't accidentally clear one.
  To place a flag, input the coordinate of the square but with an 'f' before.
   EXAMPLE:  fC4
  A 'P' will show up, representing the flag and you won't be able to accidentally clear it.
@@ -28,7 +28,7 @@
  The game will stop and your progress will be saved.
  If you type 'load' into the input box, you will be able to pick up from where you left off.
 
- You can choose the size of the gameboard between [2x2] and [26x26] .
+ You can choose the size of the game board between [2x2] and [26x26] .
  There are [3] difficulties:  easy, medium and hard with corresponding number of bombs (10%, 20% and 30%, [custom]).
 
  When setting up the game, just press [enter] to choose the standard settings.

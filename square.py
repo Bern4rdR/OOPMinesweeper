@@ -2,7 +2,7 @@ UNKNOWN_CHAR = '-'
 FLAGGED_CHAR = 'P'
 
 class Square():
-    """Original square instance, popoulates the gameboard"""
+    """Original square instance, populates the game board"""
     def __init__(self, pos, is_flagged=False, revealed=False, char=UNKNOWN_CHAR, variation=''):
         self.pos = pos
         self.is_flagged = is_flagged
@@ -95,7 +95,7 @@ class Safe(Square):
 
 
     def calculate_bombs(self, gameboard):
-        """Takes in position of current square and calculates ammount of bombs around it"""
+        """Takes in position of current square and calculates amount of bombs around it"""
         x, y = self.pos
         surrounding_squares = [[x-1,y-1],[x,y-1],[x+1,y-1],
 							   [x-1,y],			 [x+1,y],

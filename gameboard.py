@@ -10,7 +10,7 @@ DIFFICULTY = {
     }
 
 class Board():
-    """The gameboard contains all the general information about the game"""
+    """The game board contains all the general information about the game"""
     def __init__(self, size=10, bombs=20, start_time=time.time(), time_lapsed=0, board=[], game_over=False):
         self.size = size
         self.bombs = bombs
@@ -111,13 +111,13 @@ class Board():
         self.start_time = time.time()
 
 
-    def save_game(self):  # 'You already have a savefile, do you want to override?' - if there aleready is a savefile
+    def save_game(self):  # 'You already have a save file, do you want to override?' - if there already is a save file
         try: filesize = os.path.getsize("save.txt")
         except: filesize = 0
         board_state = []
         save = True
 
-        if filesize > 1 and input(' You already have a savefile, do you want to overrude [y/n]:  ').lower() == 'n':
+        if filesize > 1 and input(' You already have a save file, do you want to override [y/n]:  ').lower() == 'n':
             save = False
                 
         if save:
@@ -143,7 +143,7 @@ class Board():
         self.board = []
         with open('save.txt', 'rt+') as file:
             board_state = file.readlines()
-            #file.truncate(0)  # deletes the savefile   - - - - - - [ temporarily disabled for testing ] - - - - - -
+            #file.truncate(0)  # deletes the save file   - - - - - - [ temporarily disabled for testing ] - - - - - -
         self.size = int(board_state[-2].rstrip())
         self.safe_squares = int(board_state[-1].rstrip())
 

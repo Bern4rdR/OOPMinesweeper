@@ -33,7 +33,7 @@ if __name__ == '__main__':
 	if input(' TUTORIAL [y/n]:  ').lower() == 'y':
 		tutorial()
 
-	if filesize > 1 and input(' You have a savefile, would you like to load [y/n]:  ').lower() == 'y':
+	if filesize > 1 and input(' You have a save file, would you like to load [y/n]:  ').lower() == 'y':
 		board.load_game()
 	else:
 		board.start_game()
