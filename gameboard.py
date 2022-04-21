@@ -1,6 +1,7 @@
 import random
 import math
 import time
+import os
 from square import *
 
 DIFFICULTY = {
