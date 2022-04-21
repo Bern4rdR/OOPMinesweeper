@@ -34,13 +34,24 @@ A terminal-based Minesweeper game with ascii graphics.  Players will be able to 
 There is no working version as of yet
 
 ### Contribution
-DO NOT CONTRIBUTE!
-This is a school project and I will get a failing grade if anyone conributes
+Pull requests will not be accepted because this is a school project
 
 ### Changelog
 **v0.1**
 
 The basic bunctions of the game are done
+
+**v0.2**
+
+Added:
+- Score based on number of bombs, time and squares cleared
+- Save/Load game will resume previous gamestate
+- Clears multiple lines when empty square is revealed
+- Tutorial for how to play
+- Customizable attributes: board size & difficulty
+
+Fixed:
+- More fool-proof imput
 
 ### Contact
 **Author:**  Bernard R [Bern4rdR]
