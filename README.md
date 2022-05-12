@@ -41,7 +41,7 @@ Pull requests will not be accepted because this is a school project
 
 The basic bunctions of the game are done
 
-**v0.2**
+**v0.5**
 
 Added:
 - Score based on number of bombs, time and squares cleared
