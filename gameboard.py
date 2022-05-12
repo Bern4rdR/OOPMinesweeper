@@ -28,8 +28,7 @@ class Board():
         retstr = '    '
         for i in range(self.size):
             retstr +=f'  {ALPHABET[i]} '
-        retstr += '\n    '
-        retstr += '+---'*self.size + '+\n'
+        retstr += '\n    ' + '+---'*self.size + '+\n'
         for row in self.board:
             row_int = self.board.index(row) + 1
             retstr += (2-len(str(row_int)))*' ' + f' {row_int}' + ' | '
@@ -49,7 +48,7 @@ class Board():
 
     def board_size(self):
         while True:
-            size_input = input(' CHOOSE A BOARD SIZE (recommended: 5 - 15):  ')
+            size_input = input(' CHOOSE A BOARD SIZE (recomended: 5 - 15):  ')
             if size_input == '':
                 print(' STANDARD:  10x10')
                 break
@@ -112,7 +111,7 @@ class Board():
         self.start_time = time.time()
 
 
-    def save_game(self):  # 'You already have a save file, do you want to override?' - if there already is a save file
+    def save_game(self):
         try: filesize = os.path.getsize("save.txt")
         except: filesize = 0
         board_state = []
@@ -145,8 +144,8 @@ class Board():
         with open('save.txt', 'rt+') as file:
             board_state = file.readlines()
             #file.truncate(0)  # deletes the save file   - - - - - - [ temporarily disabled for testing ] - - - - - -
-        self.size = int(board_state[-2].rstrip())
-        self.safe_squares = int(board_state[-1].rstrip())
+        self.size = int(board_state[-3].rstrip())
+        self.safe_squares = int(board_state[-2].rstrip())
 
         index = 0
         for y in range(self.size):
@@ -167,3 +166,4 @@ class Board():
                     self.board[y][x].update()
 
         print(' GAME LOADED ...')
+        return float(board_state[-1].rstrip())
