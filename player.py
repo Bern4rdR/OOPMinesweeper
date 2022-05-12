@@ -7,7 +7,7 @@ FP = 10  # Flag Points (WIP: decreases with this much every time a flag is place
 
 HEADER = 64
 PORT = 5050
-SERVER = ''
+SERVER = ''  # server IP
 FORMAT = 'utf-8'
 DISCONNECT_MSG = '!DISCONNECT'
 LEADERBOARD_MSG = '!LEADERBOARD'
