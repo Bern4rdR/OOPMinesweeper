@@ -53,6 +53,12 @@ Added:
 Fixed:
 - More fool-proof imput
 
+**v1.0**
+
+Added:
+- Able to post score to a server
+- Online leaderboard
+
 ### Contact
 **Author:**  Bernard R [Bern4rdR]
 
