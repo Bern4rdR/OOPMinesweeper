@@ -27,7 +27,7 @@ A terminal-based Minesweeper game with ascii graphics.  Players will be able to 
 **File organisation:**  the code is divided into different files containing classes, textfiles and the `main` file
 
 ### UML
-![image](https://user-images.githubusercontent.com/96416409/160346006-425b8ca1-9644-40a6-bb15-a75e0a926dc7.png)
+![image](https://user-images.githubusercontent.com/96416409/171232397-0db0db47-4800-4d45-aaf4-a8b73fa2246a.png)
 
 
 ### Example run
